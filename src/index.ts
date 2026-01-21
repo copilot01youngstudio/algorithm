@@ -5,5 +5,6 @@ export function hello(): string {
 
 export { TokenBucket, TokenBucketConfig } from './token-bucket';
 export { LRUCache, LRUCacheOptions } from './lru-cache';
+export { LFUCache, LFUCacheOptions } from './lfu-cache';
 
 console.log(hello());
